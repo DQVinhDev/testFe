@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>test project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <script src="assets/js/index.js"></script>
+    <style data-tag="reset-style-sheet">
+      html {
+        line-height: 1.15;
+      }
+      body {
+        margin: 0;
+      }
+      * {
+        box-sizing: border-box;
+        border-width: 0;
+        border-style: solid;
+      }
+      p,
+      li,
+      ul,
+      pre,
+      div,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      figure,
+      blockquote,
+      figcaption {
+        margin: 0;
+        padding: 0;
+      }
+      button {
+        background-color: transparent;
+      }
+      button,
+      input,
+      optgroup,
+      select,
+      textarea {
+        font-family: inherit;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+      }
+      button,
+      select {
+        text-transform: none;
+      }
+      button,
+      [type="button"],
+      [type="reset"],
+      [type="submit"] {
+        -webkit-appearance: button;
+      }
+      button::-moz-focus-inner,
+      [type="button"]::-moz-focus-inner,
+      [type="reset"]::-moz-focus-inner,
+      [type="submit"]::-moz-focus-inner {
+        border-style: none;
+        padding: 0;
+      }
+      button:-moz-focus,
+      [type="button"]:-moz-focus,
+      [type="reset"]:-moz-focus,
+      [type="submit"]:-moz-focus {
+        outline: 1px dotted ButtonText;
+      }
+      a {
+        color: inherit;
+        text-decoration: inherit;
+      }
+      input {
+        padding: 2px 4px;
+      }
+      img {
+        display: block;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style: normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background-color: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <div>
+      <link href="assets/css/index.css" rel="stylesheet" />
+
+      <div class="template1-container">
+        <div class="template1-template1">
+
+          <img
+            src="assets/images/vector6693-5noj.svg"
+            alt="Vector6693"
+            class="template1-vector01"
+          />
+          
+          <img
+            src="assets/images/vector6693-b4up.svg"
+            alt="Vector6693"
+            class="template1-vector03"
+          />
+        
+          <img
+            src="assets/images/vector6693-m7qx.svg"
+            alt="Vector6693"
+            class="template1-vector05"
+          />
+          <div class="template1-color-blur">
+            <img
+              src="assets/images/vector6693-zoys.svg"
+              alt="Vector6693"
+              class="template1-vector06"
+            />
+            <img
+              src="assets/images/vector6693-99k.svg"
+              alt="Vector6693"
+              class="template1-vector07"
+            />
+          </div>
+          <div class="template1-hero-section">
+            <div class="template1-img">
+              <img
+                id="mainImage"
+                src="assets/images/image66693-bjj7-800h.png"
+                alt="image66693"
+                class="template1-image6"
+              />
+              <div class="template1-frame13">
+                <div class="template1-frame1k-peoples">
+                  <div class="template1-group7">
+                    <img
+                      src="assets/images/ellipse46693-ewki-200h.png"
+                      alt="Ellipse46693"
+                      class="template1-ellipse4"
+                    />
+                    <img
+                      src="assets/images/ellipse56693-khhm-200h.png"
+                      alt="Ellipse56693"
+                      class="template1-ellipse5"
+                    />
+                    <img
+                      src="assets/images/ellipse66693-8ckl-200h.png"
+                      alt="Ellipse66693"
+                      class="template1-ellipse6"
+                    />
+                  </div>
+                  <div class="template1-frame8">
+                    <span class="template1-text"><span>1K+ People</span></span>
+                    <span class="template1-text002">
+                      <span>Successfully Getting Home</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="template1-frame1k-peoples1">
+                  <img
+                    src="assets/images/rectangle126693-og1-200h.png"
+                    alt="Rectangle126693"
+                    class="template1-rectangle12"
+                  />
+                  <div class="template1-frame81">
+                    <span class="template1-text004">
+                      <span>56 Houses</span>
+                    </span>
+                    <span class="template1-text006">
+                      <span>Sold Monthly</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="template1-group9">
+                <img
+                  src="assets/images/vector46693-454.svg"
+                  alt="Vector46693"
+                  class="template1-vector4"
+                />
+                <img
+                  src="assets/images/vector56693-o6g8.svg"
+                  alt="Vector56693"
+                  class="template1-vector5"
+                />
+                <img
+                  src="assets/images/vector66693-uwpw.svg"
+                  alt="Vector66693"
+                  class="template1-vector6"
+                />
+                <img
+                  src="assets/images/vector76693-u5cp.svg"
+                  alt="Vector76693"
+                  class="template1-vector7"
+                />
+                <img
+                  src="assets/images/vector86693-w2p.svg"
+                  alt="Vector86693"
+                  class="template1-vector8"
+                />
+                <img
+                  src="assets/images/vector96693-atw.svg"
+                  alt="Vector96693"
+                  class="template1-vector9"
+                />
+              </div>
+            </div>
+            <div class="template1-navbar">
+              <div class="template1-logo">
+                <div class="template1-logo1">
+                  <img
+                    src="assets/images/rectangle86693-g96-200h.png"
+                    alt="Rectangle86693"
+                    class="template1-rectangle8"
+                  />
+                  <img
+                    src="assets/images/rectangle96693-cemh-200h.png"
+                    alt="Rectangle96693"
+                    class="template1-rectangle9"
+                  />
+                </div>
+                <span class="template1-text008"><span>Hounter</span></span>
+              </div>
+              <div class="template1-frame5">
+                <div class="template1-frame6">
+                  <span class="template1-text010"><span>About Us</span></span>
+                </div>
+                <div class="template1-frame7">
+                  <span class="template1-text012"><span>Article</span></span>
+                </div>
+                <div class="template1-frame82">
+                  <span class="template1-text014"><span>Property</span></span>
+                  <img
+                    src="assets/images/evaarrowiosforwardfill6694-fg4h.svg"
+                    alt="evaarrowiosforwardfill6694"
+                    class="template1-evaarrowiosforwardfill"
+                  />
+                </div>
+              </div>
+              <div class="template1-frame9">
+                <button type="button" class="template1-text016">
+                  Sign Up!
+                </button>
+              </div>
+            </div>
+            <div class="template1-title-search">
+              <div class="template1-title">
+                <span class="template1-text018">
+                  <span>
+                    Everything you need about finding your place to live will be
+                    here, where it will be easier for you
+                  </span>
+                </span>
+              </div>
+              <div class="template1-search">
+                <div class="template1-fluentlocation16filled">
+                  <div class="template1-group">
+                    <img
+                      src="assets/images/vector6694-m9nt.svg"
+                      alt="Vector6694"
+                      class="template1-vector08"
+                    />
+                  </div>
+                </div>
+
+                <input
+                  class="template1-text020"
+                  type="text"
+                  placeholder="Search for the location you want!"
+                />
+
+                <button class="template1-searchbutton">
+                  <span class="template1-text022"><span>Search</span></span>
+                  <img
+                    src="assets/images/evaarrowiosforwardfill6694-jcqd.svg"
+                    alt="evaarrowiosforwardfill6694"
+                    class="template1-evaarrowiosforwardfill1"
+                  />
+                </button>
+              </div>
+              <div class="template1-our-partnership">
+                <span class="template1-text024">
+                  <span>Our Partnership</span>
+                </span>
+                <div class="template1-frame91">
+                  <img
+                    src="assets/images/travelokalogo26694-nzyt-200h.png"
+                    alt="travelokalogo26694"
+                    class="template1-travelokalogo2"
+                  />
+                  <img
+                    src="assets/images/travelokalogo56694-50xi-200h.png"
+                    alt="travelokalogo56694"
+                    class="template1-travelokalogo5"
+                  />
+                  <img
+                    src="assets/images/travelokalogo36694-1m4l-200h.png"
+                    alt="travelokalogo36694"
+                    class="template1-travelokalogo3"
+                  />
+                  <img
+                    src="assets/images/travelokalogo46694-30r9-200h.png"
+                    alt="travelokalogo46694"
+                    class="template1-travelokalogo4"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="template1-group25">
+              <div class="template1-group23" onclick="nextImage()">
+                <img
+                  src="assets/images/ellipse106748-5efq-200h.png"
+                  alt="Ellipse106748"
+                  class="template1-ellipse10"
+                />
+                <img
+                  src="assets/images/eparrowupbold6748-zt0d.svg"
+                  alt="Previous"
+                  class="template1-eparrowupbold"
+                />
+              </div>
+              <div class="template1-group24" onclick="nextImage()">
+                <img
+                  src="assets/images/ellipse106748-0jq-200h.png"
+                  alt="Ellipse106748"
+                  class="template1-ellipse101"
+                />
+                <img
+                  src="assets/images/eparrowupbold6748-c1z8.svg"
+                  alt="eparrowupbold6748"
+                  class="template1-eparrowupbold1"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="template1-section2">
+            <div class="template1-featured-house">
+              <div class="template1-featured-house1">
+                <span class="template1-text026">
+                  <span>Featured House</span>
+                </span>
+                <div class="template1-group10">
+                  <span class="template1-text028">
+                    <span>Our Recommendation</span>
+                  </span>
+                  <img
+                    src="assets/images/rectangle146694-o0kp-200h.png"
+                    alt="Rectangle146694"
+                    class="template1-rectangle14"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="template1-category">
+              <div class="template1-frame14">
+                <img
+                  src="assets/images/phhousefill6694-nw07.svg"
+                  alt="phhousefill6694"
+                  class="template1-phhousefill"
+                />
+                <span class="template1-text030"><span>House</span></span>
+              </div>
+              <div class="template1-frame15">
+                <img
+                  src="assets/images/icroundvilla6694-cuk.svg"
+                  alt="icroundvilla6694"
+                  class="template1-icroundvilla"
+                />
+                <span class="template1-text032"><span>Villa</span></span>
+              </div>
+              <div class="template1-frame16">
+                <img
+                  src="assets/images/icroundapartment6694-qymh.svg"
+                  alt="icroundapartment6694"
+                  class="template1-icroundapartment"
+                />
+                <span class="template1-text034"><span>Apartment</span></span>
+              </div>
+            </div>
+            <div class="template1-house">
+              <div class="template1-frame10">
+                <div class="template1-img1">
+                  <img
+                    src="assets/images/rectangle156694-km8c-400w.png"
+                    alt="Rectangle156694"
+                    class="template1-rectangle15"
+                  />
+                  <div class="template1-frame131">
+                    <img
+                      src="assets/images/antdesignfirefilled6694-w1ws.svg"
+                      alt="antdesignfirefilled6694"
+                      class="template1-antdesignfirefilled"
+                    />
+                    <span class="template1-text036"><span>Popular</span></span>
+                  </div>
+                </div>
+                <div class="template1-namarumahharga">
+                  <span class="template1-text038">
+                    <span>Roselands House</span>
+                  </span>
+                  <span class="template1-text040">
+                    <span>$ 35.000.000</span>
+                  </span>
+                </div>
+                <div class="template1-frame132">
+                  <div class="template1-nama-pekerjaan">
+                    <img
+                      src="assets/images/ellipse66694-cfns-200h.png"
+                      alt="Ellipse66694"
+                      class="template1-ellipse601"
+                    />
+                    <div class="template1-frame133">
+                      <span class="template1-text042">
+                        <span>Dianne Russell</span>
+                      </span>
+                      <span class="template1-text044">
+                        <span>Manchester, Kentucky</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="template1-frame11">
+                <div class="template1-img2">
+                  <img
+                    src="assets/images/rectangle156694-frpq-400w.png"
+                    alt="Rectangle156694"
+                    class="template1-rectangle151"
+                  />
+                  <div class="template1-frame134">
+                    <img
+                      src="assets/images/phhousefill6694-d41x.svg"
+                      alt="phhousefill6694"
+                      class="template1-phhousefill1"
+                    />
+                    <span class="template1-text046">
+                      <span>New house</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="template1-namarumahharga1">
+                  <span class="template1-text048">
+                    <span>Woodlandside</span>
+                  </span>
+                  <span class="template1-text050">
+                    <span>$ 20.000.000</span>
+                  </span>
+                </div>
+                <div class="template1-nama-pekerjaan1">
+                  <img
+                    src="assets/images/ellipse66694-zdw-200h.png"
+                    alt="Ellipse66694"
+                    class="template1-ellipse602"
+                  />
+                  <div class="template1-frame135">
+                    <span class="template1-text052">
+                      <span>Robert Fox</span>
+                    </span>
+                    <span class="template1-text054">
+                      <span>Dr. San Jose, South Dakota</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="template1-frame12">
+                <div class="template1-img3">
+                  <img
+                    src="assets/images/rectangle156694-i86e-400w.png"
+                    alt="Rectangle156694"
+                    class="template1-rectangle152"
+                  />
+                  <div class="template1-frame136">
+                    <img
+                      src="assets/images/entypowallet6694-4fma.svg"
+                      alt="entypowallet6694"
+                      class="template1-entypowallet"
+                    />
+                    <span class="template1-text056">
+                      <span>Best Deals</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="template1-namarumahharga2">
+                  <span class="template1-text058">
+                    <span>The Old Lighthouse</span>
+                  </span>
+                  <span class="template1-text060">
+                    <span>$ 44.000.000</span>
+                  </span>
+                </div>
+                <div class="template1-nama-pekerjaan2">
+                  <img
+                    src="assets/images/ellipse66694-26tq-200h.png"
+                    alt="Ellipse66694"
+                    class="template1-ellipse603"
+                  />
+                  <div class="template1-frame137">
+                    <span class="template1-text062">
+                      <span>Ronald Richards</span>
+                    </span>
+                    <span class="template1-text064">
+                      <span>Santa Ana, Illinois</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="template1-arrow">
+              <button class="template1-searchbutton1">
+                <img
+                  src="assets/images/evaarrowiosforwardfill6695-bpsi.svg"
+                  alt="evaarrowiosforwardfill6695"
+                  class="template1-evaarrowiosforwardfill2"
+                />
+              </button>
+              <button class="template1-searchbutton2">
+                <img
+                  src="assets/images/evaarrowiosforwardfill6695-gswu.svg"
+                  alt="evaarrowiosforwardfill6695"
+                  class="template1-evaarrowiosforwardfill3"
+                />
+              </button>
+            </div>
+          </div>
+          <div class="template1-section3">
+            <div class="template1-img4">
+              <img
+                src="assets/images/rectangle176695-2zkw-500h.png"
+                alt="Rectangle176695"
+                class="template1-rectangle17"
+              />
+              <img
+                src="assets/images/biplaycirclefill6695-wlbe.svg"
+                alt="biplaycirclefill6695"
+                class="template1-biplaycirclefill"
+              />
+              <img
+                src="assets/images/rectangle186695-cu2v-200h.png"
+                alt="Rectangle186695"
+                class="template1-rectangle18"
+              />
+              <img
+                src="assets/images/rectangle196695-jo1u-200h.png"
+                alt="Rectangle196695"
+                class="template1-rectangle19"
+              />
+              <img
+                src="assets/images/rectangle206695-pxq-200h.png"
+                alt="Rectangle206695"
+                class="template1-rectangle20"
+              />
+            </div>
+            <div class="template1-info">
+              <div class="template1-title-house-detail">
+                <div class="template1-featured-house2">
+                  <span class="template1-text066">
+                    <span>Let’s tour and see our house!</span>
+                  </span>
+                  <div class="template1-group101">
+                    <span class="template1-text068">
+                      <span>Ready to Sell!</span>
+                    </span>
+                    <img
+                      src="assets/images/rectangle146695-szko-200h.png"
+                      alt="Rectangle146695"
+                      class="template1-rectangle141"
+                    />
+                  </div>
+                  <span class="template1-text070">
+                    <span>
+                      Houses recommended by our partners that have been curated
+                      to become the home of your dreams!
+                    </span>
+                  </span>
+                </div>
+                <div class="template1-house-detail">
+                  <span class="template1-text072">
+                    <span>House Detail</span>
+                  </span>
+                  <div class="template1-row1">
+                    <div class="template1-frame4-bedrooms">
+                      <img
+                        src="assets/images/bed16695-l74jb.svg"
+                        alt="bed16695"
+                        class="template1-bed1"
+                      />
+                      <span class="template1-text074">
+                        <span>4 Bedrooms</span>
+                      </span>
+                    </div>
+                    <div class="template1-frame2-bathrooms">
+                      <div class="template1-bath1">
+                        <div class="template1-group12">
+                          <img
+                            src="assets/images/vector6695-epe.svg"
+                            alt="Vector6695"
+                            class="template1-vector09"
+                          />
+                          <img
+                            src="assets/images/vector6695-95ko.svg"
+                            alt="Vector6695"
+                            class="template1-vector10"
+                          />
+                          <img
+                            src="assets/images/vector6695-udas.svg"
+                            alt="Vector6695"
+                            class="template1-vector11"
+                          />
+                          <img
+                            src="assets/images/vector6695-unjj.svg"
+                            alt="Vector6695"
+                            class="template1-vector12"
+                          />
+                          <img
+                            src="assets/images/vector6695-89ta.svg"
+                            alt="Vector6695"
+                            class="template1-vector13"
+                          />
+                          <img
+                            src="assets/images/vector6695-oyz.svg"
+                            alt="Vector6695"
+                            class="template1-vector14"
+                          />
+                          <img
+                            src="assets/images/vector6695-70z.svg"
+                            alt="Vector6695"
+                            class="template1-vector15"
+                          />
+                          <img
+                            src="assets/images/vector6695-kxfn.svg"
+                            alt="Vector6695"
+                            class="template1-vector16"
+                          />
+                          <img
+                            src="assets/images/vector6695-xwm.svg"
+                            alt="Vector6695"
+                            class="template1-vector17"
+                          />
+                        </div>
+                      </div>
+                      <span class="template1-text076">
+                        <span>2 Bathrooms</span>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="template1-row2">
+                    <div class="template1-frame1-carport">
+                      <div class="template1-cargarage1">
+                        <div class="template1-group1">
+                          <div class="template1-group2">
+                            <img
+                              src="assets/images/vector6695-pr6d.svg"
+                              alt="Vector6695"
+                              class="template1-vector18"
+                            />
+                            <img
+                              src="assets/images/vector6695-fcy7.svg"
+                              alt="Vector6695"
+                              class="template1-vector19"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <span class="template1-text078">
+                        <span>1 Carport</span>
+                      </span>
+                    </div>
+                    <div class="template1-frame2-floors">
+                      <div class="template1-stairswithhandrail1">
+                        <div class="template1-group3">
+                          <div class="template1-group4">
+                            <div class="template1-group5">
+                              <img
+                                src="assets/images/vector6695-gfum.svg"
+                                alt="Vector6695"
+                                class="template1-vector20"
+                              />
+                              <img
+                                src="assets/images/vector6695-grr.svg"
+                                alt="Vector6695"
+                                class="template1-vector21"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <span class="template1-text080">
+                        <span>2 Floors</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img
+                src="assets/images/rectangle196695-0n07-200h.png"
+                alt="Rectangle196695"
+                class="template1-rectangle191"
+              />
+              <div class="template1-contact-info">
+                <div class="template1-group13">
+                  <img
+                    src="assets/images/ellipse66695-zcn2-200h.png"
+                    alt="Ellipse66695"
+                    class="template1-ellipse604"
+                  />
+                  <div class="template1-nama-pekerjaan3">
+                    <span class="template1-text082">
+                      <span>Dianne Russell</span>
+                    </span>
+                    <span class="template1-text084">
+                      <span>Manager Director</span>
+                    </span>
+                  </div>
+                </div>
+                <div class="template1-contact-now">
+                  <img
+                    src="assets/images/fluentcall20filled6695-yzvl.svg"
+                    alt="fluentcall20filled6695"
+                    class="template1-fluentcall20filled"
+                  />
+                  <span class="template1-text086">
+                    <span>Contact Now</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="template1-section5">
+            <div class="template1-col1">
+              <div class="template1-frame141">
+                <img
+                  src="assets/images/rectangle226696-5t9q-200h.png"
+                  alt="Rectangle226696"
+                  class="template1-rectangle22"
+                />
+                <div class="template1-frame151">
+                  <div class="template1-frame17">
+                    <div class="template1-frame19">
+                      <img
+                        src="assets/images/ellipse66696-zcit-200h.png"
+                        alt="Ellipse66696"
+                        class="template1-ellipse605"
+                      />
+                      <span class="template1-text088">
+                        <span>Dianne Russell</span>
+                      </span>
+                    </div>
+                    <span class="template1-text090">
+                      <span>
+                        The things we need to check when we want to buy a house
+                      </span>
+                    </span>
+                  </div>
+                  <div class="template1-frame18">
+                    <img
+                      src="assets/images/icroundaccesstime6696-zzz.svg"
+                      alt="icroundaccesstime6696"
+                      class="template1-icroundaccesstime"
+                    />
+                    <span class="template1-text092">
+                      <span>4 min read | 25 Apr 2021</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="template1-frame152">
+                <img
+                  src="assets/images/rectangle226696-ztki-200h.png"
+                  alt="Rectangle226696"
+                  class="template1-rectangle221"
+                />
+                <div class="template1-frame153">
+                  <div class="template1-frame171">
+                    <div class="template1-frame191">
+                      <img
+                        src="assets/images/ellipse66696-x38-200h.png"
+                        alt="Ellipse66696"
+                        class="template1-ellipse606"
+                      />
+                      <span class="template1-text094">
+                        <span>Courtney Henry</span>
+                      </span>
+                    </div>
+                    <span class="template1-text096">
+                      <span>
+                        7 Ways to distinguish the quality of the house we want
+                        to buy
+                      </span>
+                    </span>
+                  </div>
+                  <div class="template1-frame181">
+                    <img
+                      src="assets/images/icroundaccesstime6696-rfac.svg"
+                      alt="icroundaccesstime6696"
+                      class="template1-icroundaccesstime1"
+                    />
+                    <span class="template1-text098">
+                      <span>6 min read | 24 Apr 2021</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div class="template1-frame161">
+                <img
+                  src="assets/images/rectangle226696-vpbp-200h.png"
+                  alt="Rectangle226696"
+                  class="template1-rectangle222"
+                />
+                <div class="template1-frame154">
+                  <div class="template1-frame172">
+                    <div class="template1-frame192">
+                      <img
+                        src="assets/images/ellipse66696-nmx-200h.png"
+                        alt="Ellipse66696"
+                        class="template1-ellipse607"
+                      />
+                      <span class="template1-text100">
+                        <span>Darlene Robertson</span>
+                      </span>
+                    </div>
+                    <span class="template1-text102">
+                      <span>
+                        The best way to know the quality of the house we want to
+                        buy
+                      </span>
+                    </span>
+                  </div>
+                  <div class="template1-frame182">
+                    <img
+                      src="assets/images/icroundaccesstime6696-7wbe.svg"
+                      alt="icroundaccesstime6696"
+                      class="template1-icroundaccesstime2"
+                    />
+                    <span class="template1-text104">
+                      <span>2 min read | 24 Apr 2021</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="template1-col2">
+              <img
+                src="assets/images/rectangle236696-meo-300h.png"
+                alt="Rectangle236696"
+                class="template1-rectangle23"
+              />
+              <div class="template1-frame173">
+                <div class="template1-frame174">
+                  <div class="template1-frame193">
+                    <img
+                      src="assets/images/ellipse66696-6jy6-200h.png"
+                      alt="Ellipse66696"
+                      class="template1-ellipse608"
+                    />
+                    <span class="template1-text106">
+                      <span>Cameron Williamson</span>
+                    </span>
+                  </div>
+                  <span class="template1-text108">
+                    <span>12 Things to know before buying a house</span>
+                  </span>
+                  <span class="template1-text110">
+                    <span>
+                      Want to buy a house but are unsure about what we should
+                      know, here I will try to explain what we should know and
+                      check when we want to buy a house
+                    </span>
+                  </span>
+                </div>
+                <div class="template1-frame183">
+                  <img
+                    src="assets/images/icroundaccesstime6696-16de.svg"
+                    alt="icroundaccesstime6696"
+                    class="template1-icroundaccesstime3"
+                  />
+                  <span class="template1-text112">
+                    <span>8 min read | 25 Apr 2021</span>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="template1-title1">
+              <div class="template1-title2">
+                <span class="template1-text114">
+                  <span>Find out more about</span>
+                  <br />
+                  <span>selling and buying homes</span>
+                </span>
+                <div class="template1-group102">
+                  <span class="template1-text118">
+                    <span>See tips and trick from our partnership</span>
+                  </span>
+                  <img
+                    src="assets/images/rectangle146696-ncaa-200h.png"
+                    alt="Rectangle146696"
+                    class="template1-rectangle142"
+                  />
+                </div>
+              </div>
+              <div class="template1-contact-now1">
+                <span class="template1-text120"><span>More Artikel</span></span>
+              </div>
+            </div>
+          </div>
+          <div class="template1-subscribe">
+            <img
+              src="assets/images/rectangle246696-9kpf-400h.png"
+              alt="Rectangle246696"
+              class="template1-rectangle24"
+            />
+            <img
+              src="assets/images/ellipse66696-177r-200h.png"
+              alt="Ellipse66696"
+              class="template1-ellipse609"
+            />
+            <img
+              src="assets/images/ellipse76696-13ap-200h.png"
+              alt="Ellipse76696"
+              class="template1-ellipse7"
+            />
+            <img
+              src="assets/images/ellipse86696-4c6i-200h.png"
+              alt="Ellipse86696"
+              class="template1-ellipse8"
+            />
+            <img
+              src="assets/images/ellipse96696-4iav-200h.png"
+              alt="Ellipse96696"
+              class="template1-ellipse9"
+            />
+            <img
+              src="assets/images/rectangle126696-ry1n-200h.png"
+              alt="Rectangle126696"
+              class="template1-rectangle121"
+            />
+            <img
+              src="assets/images/rectangle256696-wc1d-200h.png"
+              alt="Rectangle256696"
+              class="template1-rectangle25"
+            />
+            <img
+              src="assets/images/rectangle266696-vua-200h.png"
+              alt="Rectangle266696"
+              class="template1-rectangle26"
+            />
+            <img
+              src="assets/images/rectangle276696-u4ia-200h.png"
+              alt="Rectangle276696"
+              class="template1-rectangle27"
+            />
+            <div class="template1-search1">
+              <img
+                src="assets/images/evaemailfill6696-81to.svg"
+                alt="evaemailfill6696"
+                class="template1-evaemailfill"
+              />
+
+              <input
+                class="template1-text122"
+                type="text"
+                placeholder="Your email here"
+              />
+
+              <button class="template1-searchbutton3">
+                <span class="template1-text124"><span>Subsribe Now</span></span>
+              </button>
+            </div>
+            <span class="template1-text126">
+              <span>Subscribe For More Info</span>
+              <br />
+              <span>and update from Hounter</span>
+            </span>
+          </div>
+          <div class="template1-footer">
+            <div class="template1-bio">
+              <span class="template1-text130">
+                <span>
+                  We provide information about properties such as houses, villas
+                  and apartments to help people find their dream home
+                </span>
+              </span>
+              <div class="template1-logo2">
+                <div class="template1-logo3">
+                  <img
+                    src="assets/images/rectangle86697-v2au-200h.png"
+                    alt="Rectangle86697"
+                    class="template1-rectangle81"
+                  />
+                  <img
+                    src="assets/images/rectangle96697-byki-200h.png"
+                    alt="Rectangle96697"
+                    class="template1-rectangle91"
+                  />
+                </div>
+                <span class="template1-text132"><span>Hounter</span></span>
+              </div>
+              <div class="template1-frame20">
+                <a href="https://www.facebook.com/vin0405/" target="_blank">
+                  <img
+                    src="assets/images/brandicofacebook6697-dd5d.svg"
+                    alt="brandicofacebook6697"
+                    class="template1-brandicofacebook"
+                  />
+                </a>
+                <img
+                  src="assets/images/antdesigntwitteroutlined6697-bbz.svg"
+                  alt="antdesigntwitteroutlined6697"
+                  class="template1-antdesigntwitteroutlined"
+                />
+                <img
+                  src="assets/images/antdesigninstagramfilled6697-kwa.svg"
+                  alt="antdesigninstagramfilled6697"
+                  class="template1-antdesigninstagramfilled"
+                />
+              </div>
+            </div>
+            <div class="template1-property">
+              <span class="template1-text134"><span>Property</span></span>
+              <span class="template1-text136"><span>House</span></span>
+              <span class="template1-text138"><span>Apartment</span></span>
+              <span class="template1-text140"><span>Villa</span></span>
+            </div>
+            <div class="template1-article">
+              <span class="template1-text142"><span>Article</span></span>
+              <span class="template1-text144"><span>New Article</span></span>
+              <span class="template1-text146">
+                <span>Popular Article</span>
+              </span>
+              <span class="template1-text148">
+                <span>Tips &amp; Tricks</span>
+              </span>
+              <span class="template1-text150"><span>Most Read</span></span>
+            </div>
+            <div class="template1-contact">
+              <span class="template1-text152"><span>Contact</span></span>
+              <span class="template1-text154">
+                <span>2464 Royal Ln. Mesa, New Jersey 45463</span>
+              </span>
+              <span class="template1-text156"><span>(671) 555-0110</span></span>
+              <span class="template1-text158">
+                <span>info@hounter.com</span>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
